@@ -7,8 +7,8 @@ import Foreground from "./components/FG/Foreground";
 function App() {
   const [theme, changeTheme] = useState("light");
 
-  // change it to true
-  const [isSplashVisible, setIsSplashVisible] = useState(false);
+  // change it to false/true accordingly
+  const [isSplashVisible, setIsSplashVisible] = useState(true);
   const [fadeOut, setFadeOut] = useState(false);
 
   useEffect(() => {
